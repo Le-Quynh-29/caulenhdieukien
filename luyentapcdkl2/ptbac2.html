@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giai phuong trinh bac 2</title>
+</head>
+<body>
+<script>
+    var a = +prompt('Nhap a:');
+        b = +prompt('nhap b:');
+        c = +prompt('nhap c:');
+    if (a == 0){
+        alert('day la phuong trinh bac 1');
+    } else {
+        var denta = (b * b) - (4 * a * c);
+        if (denta == 0 ){
+            document.write('phuong trinh co nghiem kep x1=x2=', - b / (2 * a));
+        }else if (denta > 0){
+            document.write('phuong trinh co 2 nghiem phan biet');
+
+        } else {
+            document.write('phuong trinh vo nghiem');
+        }
+    }
+</script>
+</body>
+</html>
